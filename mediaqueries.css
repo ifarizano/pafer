@@ -1,0 +1,101 @@
+/* Tablet */
+@media (max-width: 992px){
+    .navbar{
+        gap: 10px;
+    }
+
+    .navbar-list{
+        position: absolute;
+        top: 50px;
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        border: 1px solid gray;
+        border-top: 0px;
+        flex-direction: column;
+        background: white;
+        border-radius: 0px 0px 15px 15px;
+        padding: 45px 30px;
+        display: none;
+    }
+
+    .navbar-list a{
+        font-size: 18px;
+    }
+
+    .menu-label{
+        display: flex;
+        cursor: pointer;
+    }
+
+    .menu-label img{
+        height: 25px;
+        width: 25px;
+    }
+
+    #menu-toggle:checked + .navbar-list{
+        display: flex;
+    }
+
+    .hero-info{
+        /* width: 100%; */
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .hero-info h1{
+        width: 90%;
+        max-width: 500px;
+    }
+
+    .hero-card{
+        display: none;
+    }
+
+    .nos-card img{
+       width: 150px;
+    }
+
+
+    .nos-container{
+        gap: 0px;
+    }
+
+    #servicios h2{
+        text-align: center;
+    }
+
+    .serv-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 576px){
+
+
+    .nos-card{
+        display: none;
+    }
+
+    .nos-card-chicos{
+        display: flex;
+    }
+
+    .serv-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
