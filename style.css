@@ -105,7 +105,7 @@ main{
 
 #hero{
     /* max-width: 1200px; */
-    background: #2678D1;
+    background: #3865aa;
     padding: 70px 0;
     display: flex;
     justify-content: center;
@@ -247,9 +247,10 @@ main{
 
 .contact-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 30px;
     border-radius: 20px;
+    height: 50px;
 }
 
 #contacto h2{
@@ -257,35 +258,21 @@ main{
     margin-top: 50px;
 }
 
-.contact-info{
-    display: flex;
-    padding: 50px 20px;
-    /* background: grey; */
+
+.buttons{
+    background-color: #3865aa;
+    height: 100px;
+    width: 300px;
+    padding: 40px 30px;
     border-radius: 20px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 
-.contact-info ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 14px;
-    gap: 30px;
-}
-
-.contact-card{
-    display: flex;
-    padding: 50px 20px;
-    margin: 50px;
-    /* background: grey; */
-    border-radius: 20px;
-    /* height: 500px; */
-}
-
-.contact-card ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 14px;
-    gap: 30px;
+.buttons a{
+    color: white;
+    font-size: 45px;
 }

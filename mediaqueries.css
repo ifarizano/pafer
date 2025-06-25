@@ -77,6 +77,9 @@
 
 @media (max-width: 576px){
 
+    .hero-info h1{
+        min-width: 200px;
+    }
 
     .nos-card{
         display: none;
@@ -90,7 +93,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+     } 
 
 
 }
